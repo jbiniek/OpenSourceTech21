@@ -2,10 +2,10 @@
 
 ## Instrukcja uruchomienia środowiska laboratoryjnego
 
-1. **Wymagane komponenty**
+1. **Wymagania systemowe**
 
-Komputer PC z systemem operacyjnym MS Windows 10, Apple macOS lub Linux o następujących minimalnych parametrach:
-- procesor min. 4 rdzeniowy lub 2 rdzeniowy z technologią Hyper-Threading i włączoną opcją wirtualizacji w BIOS / UEFI
+Komputer/laptop z systemem operacyjnym MS Windows 10, Apple macOS lub Linux, o następujących minimalnych parametrach:
+- procesor min. 4 rdzeniowy (lub 2 rdzeniowy z technologią Hyper-Threading) i włączoną wirtualizacją w BIOS / UEFI
 - minimum 12 GB pamięci RAM, zalecane 16GB (maszyna wirtualna zajmie 8GB)
 - około 20 GB wolnej przestrzeni dyskowej
 
