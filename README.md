@@ -49,4 +49,6 @@ Po zakończeniu tego polecenia Rancher będzie potrzebował kilku minut na pełn
 
 Używamy w tej instalacji certyfikatu "self-signed" dlatego przeglądarka może nas ostrzegać przed niebezpieczną stroną. W takim wypadku należy wybrać "Zaawansowane" i potwierdzić, że chce się wejść na tę stronę.
 
-Ekran powitalny poprosi nas o ustanowienie hasła administratora, resztę ustawień można pozostawić domyślnych, po czym będzie można już zacząć zabawę!
+Ekran powitalny poprosi nas o ustanowienie hasła administratora, trzeba też zaznaczyć zgodę na warunki korzystania. Następnie zostaniemy poproszeni o adres serwera, należy podać:
+
+192.168.10.10 
