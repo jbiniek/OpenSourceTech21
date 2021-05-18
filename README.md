@@ -35,3 +35,18 @@ cd ~/OpenSourceTech
 vagrant up
 ```
 Poprawne inicjalizowanie środowiska laboratoryjnego powinno zakończyć się uruchomieniem maszyny wirtualnej, która posłuży nam do instalacji Ranchera.
+
+Kolejnym krokiem będzie wywołanie polecenia 
+```bash
+docker run -d --restart=unless-stopped \
+  -p 80:80 -p 443:443 \
+  --privileged \
+  rancher/rancher:latest
+```
+które pobierze obrazy kontenerów składających się na serwer Ranchera i je uruchomi. Szerszy opis procedury instalacyjnej znajduje się w dokumentacji: https://rancher.com/docs/rancher/v2.x/en/installation/other-installation-methods/single-node-docker/
+
+Po zakończeniu tego polecenia Rancher będzie potrzebował kilku minut na pełne wystartowanie usług. Po tym czasie będzie go można wywołać wpisując w przeglądarce adres http://127.0.0.1 
+
+Używamy w tej instalacji certyfikatu "self-signed" dlatego przeglądarka może nas ostrzegać przed niebezpieczną stroną. W takim wypadku należy wybrać "Zaawansowane" i potwierdzić, że chce się wejść na tę stronę.
+
+Ekran powitalny poprosi nas o ustanowienie hasła administratora, resztę ustawień można pozostawić domyślnych, po czym będzie można już zacząć zabawę!
