@@ -45,7 +45,7 @@ docker run -d --restart=unless-stopped \
 ```
 które pobierze obrazy kontenerów składających się na serwer Ranchera i je uruchomi. Szerszy opis procedury instalacyjnej znajduje się w dokumentacji: https://rancher.com/docs/rancher/v2.x/en/installation/other-installation-methods/single-node-docker/
 
-Po zakończeniu tego polecenia Rancher będzie potrzebował kilku minut na pełne wystartowanie usług. Po tym czasie będzie go można wywołać wpisując w przeglądarce adres http://127.0.0.1 
+Po zakończeniu tego polecenia Rancher będzie potrzebował kilku minut na pełne wystartowanie usług. Po tym czasie będzie go można wywołać wpisując w przeglądarce adres https://127.0.0.1 
 
 Używamy w tej instalacji certyfikatu "self-signed" dlatego przeglądarka może nas ostrzegać przed niebezpieczną stroną. W takim wypadku należy wybrać "Zaawansowane" i potwierdzić, że chce się wejść na tę stronę.
 
