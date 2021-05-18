@@ -21,7 +21,7 @@ Dodatkowo należy pobrać i zainstalować następujące oprogramowanie:
 Po instalacji wymaganego oprogramowania należy pobrać plik z definicją laboratoryjnego środowiska ("Vagrantfile") i zapisać go w lokalnym katalogu np. 'OpenSourceTech' na dysku C: (w sytemach MS Windows) lub w katalogu domowym użytkownika (w systemach Apple macOS i Linux). Bezpośredni link do pobrania: https://raw.githubusercontent.com/jbiniek/OpenSourceTech21/main/Vagrantfile
 
 > **UWAGA**
-> **Plik "Vagrantfile" należy pobrać i zapisać tak, jak jest udostępniony, bez dopisywania rozszerzeń typu .txt czy innych zmian.**
+> **Plik "Vagrantfile" należy pobrać i zapisać tak, jak jest udostępniony, bez dopisywania rozszerzeń typu .txt czy innych zmian. Najlepiej kliknąć prawym przyciskiem w powyższy link, wybrać "Zapisz jako.." i upewnić się, że nazwa pliku to samo "Vagrantfile" bez rozszerzeń.**
 
 Po pobraniu pliku Vagrantfile należy uruchomić terminal i wykonać następujące polecenia: 
 - w systemie MS Windows
