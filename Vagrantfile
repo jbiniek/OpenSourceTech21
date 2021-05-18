@@ -10,12 +10,12 @@ Vagrant.configure("2") do |masterConfig|
     rancher.vm.network "forwarded_port", guest: 443, host: 443
     rancher.ssh.insert_key = false
    rancher.vm.provider "libvirt" do |vMaster|
-      vMaster.memory = 4096
+      vMaster.memory = 8192
       vMaster.cpus = 4
    end
     rancher.vm.provider "virtualbox" do |vMaster|
       vMaster.name = "SUSE_Rancher"
-      vMaster.customize ["modifyvm", :id, "--memory", 4096]
+      vMaster.customize ["modifyvm", :id, "--memory", 8192]
       vMaster.customize ["modifyvm", :id, "--cpus", 4]
       vMaster.customize ["modifyvm", :id, "--groups", "/SUSE_Rancher"]
     end
