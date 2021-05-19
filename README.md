@@ -36,14 +36,16 @@ vagrant up
 ```
 Poprawne inicjalizowanie środowiska laboratoryjnego powinno zakończyć się uruchomieniem maszyny wirtualnej, która posłuży nam do instalacji Ranchera.
 
-Kolejnym krokiem będzie wywołanie polecenia 
+Kolejnym krokiem będzie wywołanie podłączenie się do utworzonej maszyny. Hasło administratora to "vagrant": 
 ```bash
+vagrant ssh rancher
+su -
 docker run -d --restart=unless-stopped \
   -p 80:80 -p 443:443 \
   --privileged \
   rancher/rancher:latest
 ```
-które pobierze obrazy kontenerów składających się na serwer Ranchera i je uruchomi. Szerszy opis procedury instalacyjnej znajduje się w dokumentacji: https://rancher.com/docs/rancher/v2.x/en/installation/other-installation-methods/single-node-docker/
+To polecenie pobierze obrazy kontenerów składających się na serwer Ranchera i je uruchomi. Szerszy opis procedury instalacyjnej znajduje się w dokumentacji: https://rancher.com/docs/rancher/v2.x/en/installation/other-installation-methods/single-node-docker/
 
 Po zakończeniu tego polecenia Rancher będzie potrzebował kilku minut na pełne wystartowanie usług. Po tym czasie będzie go można wywołać wpisując w przeglądarce adres https://127.0.0.1 
 
