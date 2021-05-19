@@ -6,7 +6,7 @@
 
 Komputer/laptop z systemem operacyjnym MS Windows 10, Apple macOS lub Linux, o następujących minimalnych parametrach:
 - procesor min. 4 rdzeniowy (lub 2 rdzeniowy z technologią Hyper-Threading) i włączoną wirtualizacją w BIOS / UEFI
-- minimum 16 GB pamięci RAM (maszyny wirtualne zajmą 10GB)
+- minimum 16 GB pamięci RAM (maszyny wirtualne zajmą 12GB)
 - około 20 GB wolnej przestrzeni dyskowej
 
 Dodatkowo należy pobrać i zainstalować następujące oprogramowanie:
