@@ -6,6 +6,7 @@ Vagrant.configure("2") do |masterConfig|
     rancher.vm.box = "opensuse/Leap-15.2.x86_64"
     rancher.vm.hostname = "rancher"
     rancher.vm.network "private_network", ip: "192.168.10.10"
+    rancher.vm.network "forwarded_port", guest: 80, host: 80
     rancher.vm.network "forwarded_port", guest: 443, host: 443
     rancher.ssh.insert_key = false
     rancher.vm.provider "libvirt" do |vMaster|
@@ -30,7 +31,6 @@ Vagrant.configure("2") do |masterConfig|
     worker.vm.box = "opensuse/Leap-15.2.x86_64"
     worker.vm.hostname = "worker"
     worker.vm.network "private_network", ip: "192.168.10.11"
-    worker.vm.network "forwarded_port", guest: 80, host: 80
     worker.ssh.insert_key = false
     worker.vm.provider "libvirt" do |vworker|
       vworker.memory = 8192
