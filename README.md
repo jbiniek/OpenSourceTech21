@@ -51,6 +51,6 @@ Używamy w tej instalacji certyfikatu "self-signed" dlatego przeglądarka może 
 
 Ekran powitalny poprosi nas o ustanowienie hasła administratora, trzeba też zaznaczyć zgodę na warunki korzystania. Następnie zostaniemy poproszeni o adres serwera, należy podać:
 
-192.168.10.10 
+> 192.168.10.10 
 
 Można już zacząć przygodę z Rancherem!
